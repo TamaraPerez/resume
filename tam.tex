@@ -1,0 +1,194 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\usepackage{fontawesome}
+\definecolor{light-gray}{gray}{0.55}
+    \definecolor{skype}{HTML}{12A5F4}
+    \definecolor{html5}{HTML}{e34c26}
+    \definecolor{php}{HTML}{6c7eb7}
+    \definecolor{db}{HTML}{FF9900}
+    \definecolor{linkedin}{HTML}{1683BB}
+   \definecolor{star}{HTML}{FFFF0B}
+
+\begin{document}
+\newfontfamily{\FA}{FontAwesome}
+
+\header{tamara}{p\'erez} % Your name and current job title/field
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside}  % In the aside, each new line forces a line break
+\centering% 
+\includegraphics[width=0.85\linewidth,clip=]{tam.jpg}% 
+\section{datos{\normalfont personales}}
+\begin{entrylist}
+Resido en: Madrid
+Edad: 25 años
+Permiso B y coche propio
+%\  \Mobilefone \  +34 (647 01 10 45)
+
+{\color{gray}{\FA \faPhone}} {+34 (647 01 10 45)}
+{\color{gray}{\FA \faEnvelope}} \href{mailto:tamaraa.91@gmail.com}{tamaraa.91@gmail.com}
+{\color{linkedin}{\FA \faLinkedin}} \href{https://es.linkedin.com/in/tamara-perez-41654a83}{LinkedIn}
+{\color{gray}{\FA \faGithub}} \href{https://github.com/TamaraPerez}{GitHub}
+{\color{skype}{\FA \faSkype}} \href{skype:tam\_91p?call}{Skype}
+~
+\end{entrylist}
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experiencia}
+\begin{entrylist}
+%-----------BQ------------
+\entry
+{1 año 4 meses}
+{PHP Developer {\normalfont BQ (Las Rozas - Madrid)}}
+{febrero de 2015 - actualidad}
+{Desarrolladora backend en PHP de aplicaciones internas de BQ as\'i como de un CMS propio de la compa\~n\'ia y diversas secciones de la web principal \href{http://bq.com}{www.bq.com}. Tambi\'en he sido Release Owner en diversas ocasiones, encarg\'andome de integraci\'on y tagging de ramas, revisi\'on de tareas que subir\'an a producci\'on y, finalmente, deploy en entornos de prueba y producci\'on con Jenkins. 
+Adem\'as, trabajamos con metodolog\'ias \'agiles de gesti\'on (scrum diario + divisi\'on de tareas en sprint + retrospectivas a la finalizaci\'on de cada sprint).
+ Las herramientas que he utilizado para llevar a cabo estas tareas son:
+\begin{itemize}
+\item\textbf{PHP 5.5 + Symfony2 + XDebug + Composer + MySQL + Doctrine + Git} Como stack principal de desarrollo
+\item\textbf{PHP Unit} Para pruebas unitarias
+\item\textbf{Stash + Jira + Confluence} Herramientas de Atlassian utilizadas para documentación, gesti\'on de tareas y control de c\'odigo (mediante pull request/comentarios)
+\item\textbf{PHP Storm} Como IDE principal\\
+\end{itemize}}
+\end{entrylist}
+%------------------------------------------------
+
+\begin{entrylist}
+%-------------INGESIT----------------
+\entry
+{1 año 4 meses}
+{Junior Python Developer {\normalfont Ingesit (Bilbao)}}
+{octubre de 2013 - enero de 2015}
+{Desarrolladora de m\'odulos y dashboards para OpenERP 7.0 en Python. Tambi\'en utilic\'e diversas herramientas como Aeroo reports para informes, Business Analytics y Data Integration de Pentaho para la realizaci\'on de migraciones. Tecnolog\'ias:
+\begin{itemize}
+\item\textbf{Python} Desarrollo de módulos para el ERP
+\item\textbf{SVN} Sistema control de versiones
+\item\textbf{HTML, CSS, JS y XML} UI de los dashboards
+\item\textbf{PostgreSQL} Sistema gestor de Bases de Datos utilizado.\\
+\end{itemize}}
+\end{entrylist}
+%------------------------------------------------
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{1 año}
+{PHP developer {\normalfont Freelance}}
+{agosto de 2013 - agosto 2014}
+{Desarrollo de una p\'agina web cuyo funcionamiento se basa en una b\'usqueda de restaurantes tras la cual se permite realizar un pedido a cualquiera de \'estos (tipo Just Eat o La Nevera Roja). He desarrollado tanto diversas partes del \textit{backend} como del \textit{frontend} usando:
+\begin{itemize}
+\item\textbf{Servidor} Configuraci\'on b\'asica de un servidor Apache y MySQL
+\item\textbf{Tecnolog\'ias utilizadas} JavaScript (JQuery, AJAX, JSON), HTML5 y CSS3, PHP
+\item\textbf{BBDD}	MySQL
+\item\textbf{Control de versiones} SVN\\
+\end{itemize}}
+\end{entrylist}
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{formaci\'on}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010-2014}
+{Grado en Ingenier\'ia Inform\'atica {\normalfont de Gesti\'on y Sistemas de Informaci\'on}}
+{}
+{Universidad P\'ublica del Pa\'is Vasco}
+%------------------------------------------------
+\entry
+{2013}
+{Curso de desarrollo de OpenERP}
+{30horas}
+{Ingesit}
+%------------------------------------------------
+\entry
+{2013}
+{Curso de diseño gr\'afico}
+{12horas}
+{Universidad P\'ublica del Pa\'is Vasco}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Idiomas SECTION
+%----------------------------------------------------------------------------------------
+%\newpage
+\section{idiomas}
+\begin{entrylist}
+Español - Nativo \\* 
+Euskera -  Buen nivel le\'ido y escrito, nivel bajo hablado\\* 
+Ingl\'es -  Buen nivel le\'ido, hablado y escrito\\* 
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Lenguajes de programacion SECTION
+%----------------------------------------------------------------------------------------
+
+\section{skills}
+\textbf{Lenguajes de programaci\'on:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}PHP {\color{star}{\FA \faStar}{\color{star}{\FA \faStar}PL/SQL {\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Python {\color{star}{\FA \faStar}Java
+
+\textbf{Bases de datos:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}MySQL {\color{star}{\FA \faStar}{\color{star}{\FA \faStar}PostgreSQL
+
+\textbf{Frameworks:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Symfony2 {\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Doctrine
+
+\textbf{IDEs:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}PHPStorm {\color{star}{\FA \faStar}{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Eclipse
+
+\textbf{CI:}
+{\color{star}{\FA \faStar}Jenkins {\color{star}{\FA \faStar}Docker
+
+\textbf{Control de versiones:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Git {\color{star}{\FA \faStar}SVN
+
+\textbf{BI:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Pentaho
+
+\textbf{ERP:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}OpenERP
+
+\textbf{Documentaci\'on:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Markdown {\color{star}{\FA \faStar}{\color{star}{\FA \faStar}LaTeX
+
+\textbf{Otros:}
+{\color{star}{\FA \faStar}{\color{star}{\FA \faStar}Patrones de Diseño (Singleton, Facade, Builder, Command, Strategy) {\color{star}{\FA \faStar}TDD
+
+
+%----------------------------------------------------------------------------------------
+%	Colaboración SECTION
+%----------------------------------------------------------------------------------------
+
+\section{colaboraci\'on}
+\textbf{Conferencia Agile Spain 2013}
+ Colaboradora y organizadora de la CAS 2013, en Bilbao.
+
+\end{document}
